@@ -4,7 +4,8 @@ export class Tag{
   static readonly PYTHON = new Tag('Python', 'pink');
   static readonly CSHARP = new Tag('C#', 'green');
   static readonly JAVASCRIPT = new Tag('Javascript', 'orange');
-  static readonly ASPNET = new Tag('ASP.NET', 'purple');
+  static readonly ASPNET = new Tag('Asp.net', 'purple');
+  static readonly DJANGO = new Tag('Django','green');
 
 
 

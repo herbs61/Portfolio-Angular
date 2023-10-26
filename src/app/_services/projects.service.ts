@@ -8,9 +8,9 @@ import { Project } from '../_modules/Project';
 export class ProjectsService {
 
   projects: Project[] = [
-    {id: 0,  name: 'Sample Python Project', pictures:["../../assets/image_1.png","../../assets/image_2.png","../../assets/image_3.png"], projectLink: 'https://github.com/herbs61/Beginner-Ecommence-Web', summary:"Python project that registers students" ,description: "lorem20", tags:[Tag.PYTHON] },
-    {id: 1,  name: 'Sample Asp.net Project', pictures:["../../assets/image_1.png","../../assets/image_2.png","../../assets/image_3.png"], projectLink: 'https://github.com/herbs61/Payment-Asp.net-Backend-', summary:"Asp.net that takes in payment details" ,description: "lorem20", tags:[Tag.ASPNET,Tag.CSHARP] },
-    {id: 2,  name: 'Full-stack Project', pictures:["../../assets/image_1.png","../../assets/image_2.png","../../assets/image_3.png"], projectLink: 'https://github.com/herbs61/Student-Registration', summary:"Student registration with python and angular" ,description: "lorem20", tags:[Tag.PYTHON,Tag.ANGULAR] }
+    {id: 0,  name: 'Sample Python Project', pictures:["../../assets/image_1.png","../../assets/image_2.png","../../assets/image_3.png"], projectLink: 'https://github.com/herbs61/Beginner-Ecommence-Web', summary:"Python project that registers students" ,description: "lorem20", tags:[Tag.PYTHON,Tag.DJANGO] },
+    {id: 1,  name: 'Sample Asp.net Project', pictures:["../../assets/PaymentDetail.png","../../assets/PRegister.png","../../assets/DPayment.png"], projectLink: 'https://github.com/herbs61/Payment-Asp.net', summary:"Asp.net that takes in payment details" ,description: "lorem20", tags:[Tag.ASPNET,Tag.ANGULAR,Tag.TYPESCRIPT,Tag.CSHARP] },
+    {id: 2,  name: 'Full-stack Project', pictures:["../../assets/StudentRegistration.png","../../assets/image_2.png","../../assets/image_3.png"], projectLink: 'https://github.com/herbs61/Student-Registration', summary:"Student registration with python and angular" ,description: "lorem20", tags:[Tag.PYTHON,Tag.DJANGO,Tag.ANGULAR,Tag.TYPESCRIPT] }
   ]
 
   constructor() { }
