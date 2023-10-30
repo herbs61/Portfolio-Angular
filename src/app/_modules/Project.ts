@@ -9,3 +9,10 @@ export interface Project{
   pictures: string[];
   tags : Tag[];
 }
+
+export interface Education{
+  institue: string;
+  course: string;
+  duration: string;
+  score: string;
+}
