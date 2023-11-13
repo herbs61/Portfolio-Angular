@@ -10,26 +10,6 @@ import { Education } from '../_modules/Project';
 
 
 export class ResumeComponent implements OnInit {
-  educationList: Education[] = [
-    {
-      institue: 'Akosombo International School',
-      course: 'General Arts',
-      duration: '2017-2020',
-      score:'',
-
-    },{
-      institue: 'Ghana-Indian Kofi Anaan Centre of Excellence in ICT(AITI-KACE)',
-      course: 'Diploma in Software Development',
-      duration: '29thJuly,2022 - 29thSeptember,2022',
-      score:'80%',
-    },
-    {
-      institue: 'Central University',
-      course: 'Information Technology',
-      duration: '2021-still in school',
-      score:'',
-    }
-  ]
 
 
   constructor(private titleService: Title){

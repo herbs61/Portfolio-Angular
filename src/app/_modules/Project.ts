@@ -16,3 +16,11 @@ export interface Education{
   duration: string;
   score: string;
 }
+
+export interface WorkExperience{
+  role: string;
+  company: string;
+  duration: string;
+  description: string[];
+}
+
