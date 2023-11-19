@@ -1,4 +1,29 @@
 .jumbotron{
   padding: 2rem 3rem;
-  background-color: #e9ecef
+  background-color: #e9ecef;
+  width:100%;
+  margin: 0 auto;
+}
+@media (min-width: 400px) {
+  .jumbotron {
+    max-width: 780px; /* Adjust the maximum width for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    max-width: 990px; /* Adjust the maximum width for medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    max-width: 1199px; /* Adjust the maximum width for large screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    max-width: 2062px; /* Adjust the maximum width for extra-large screens */
+  }
 }

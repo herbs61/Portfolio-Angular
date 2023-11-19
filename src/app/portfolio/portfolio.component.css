@@ -12,7 +12,6 @@
     color: gray;
   }
   :host.pc.educations{
-    width:60px;
     position: relative;
     margin-left: grid;
     gap: 0 1.5rem;
