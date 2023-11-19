@@ -1,29 +1,43 @@
-.jumbotron{
-  padding: 2rem 3rem;
-  background-color: #e9ecef;
-  width:100%;
-  margin: 0 auto;
+@media (min-width: 100px) {
+  .jumbotron{
+    padding: 2rem 3rem;
+    background-color: #e9ecef;
+    width:125%;
+    margin: 0 auto;
+  }
 }
-@media (min-width: 400px) {
-  .jumbotron {
-    max-width: 780px; /* Adjust the maximum width for small screens */
+@media (min-width: 390px) {
+  .jumbotron{
+    padding: 2rem 3rem;
+    background-color: #e9ecef;
+    width:115%;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 768px) {
-  .jumbotron {
-    max-width: 990px; /* Adjust the maximum width for medium screens */
+  .jumbotron{
+    padding: 2rem 3rem;
+    background-color: #e9ecef;
+    width:100%;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 992px) {
-  .jumbotron {
-    max-width: 1199px; /* Adjust the maximum width for large screens */
+  .jumbotron{
+    padding: 2rem 3rem;
+    background-color: #e9ecef;
+    width:100%;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 1200px) {
-  .jumbotron {
-    max-width: 2062px; /* Adjust the maximum width for extra-large screens */
+  .jumbotron{
+    padding: 2rem 3rem;
+    background-color: #e9ecef;
+    width:100%;
+    margin: 0 auto;
   }
 }
