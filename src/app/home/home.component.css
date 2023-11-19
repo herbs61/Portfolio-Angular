@@ -1,0 +1,27 @@
+@media (min-width: 320px) {
+  .container {
+    margin: -10px; /* Adjust the maximum width for small screens */
+  }
+}
+@media (min-width: 650px) {
+  .container {
+    margin: -70x; /* Adjust the maximum width for medium screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 30px; /* Adjust the maximum width for medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    margin: 25px; /* Adjust the maximum width for large screens */
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    margin: 40pxx;
+   }
+  }
