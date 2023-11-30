@@ -1,6 +1,6 @@
 <div class="container">
-<h1 class="project" style="text-align: center; ">Projects</h1>
-  <div class="mb-2">
+<h1 class="project col-lg col-md-11 col-sm-10 col-10" style="text-align: center; ">Projects</h1>
+  <div class="mb-4">
     <div>
       <button class="btn btn-outline-primary mb-2 me-2" (click)="isCollapsed = !isCollapsed">Filter</button>
       <button class="btn btn-outline-secondary mb-2" (click)="ResetFilters()" [hidden]="!filtering">Reset</button>
@@ -10,7 +10,7 @@
       <div class="border mb-2 shadow-sm" style="width:250px">
         <form>
           <div class="row mx-0">
-            <div class="col">
+            <div class="col-lg col-md-11 col-sm-10 col-10">
                 <small><b>Languages:</b></small>
                 <div class="form-group">
                   <div class="form-check">
@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-lg col-md-11 col-sm-10 col-10">
                 <small><b>Frameworks:</b></small>
                 <div class="form-group">
                   <div class="form-check">
@@ -95,7 +95,7 @@
   </div>
 
   <div class="row">
-    <div *ngFor="let project of projects" class="col-lg-4 col-md-6 mb-3" style="max-width: 380px; min-width: 380px">
+    <div *ngFor="let project of projects" class="col-lg col-md-11 col-sm-10 col-15">
       <app-project-card [project]="project"></app-project-card>
     </div>
 
@@ -104,10 +104,9 @@
 </div>
 
 
-
-<!-- <div class="container">
+ <div class="container">
   <div class="row">
-    <div class="col-lg shadow border m-5">
+    <div class="col-lg col-md-11 col-sm-10 col-15 shadow border m-3">
       <div class="text-center">
         <h1>Education</h1>
         <div class="educations " *ngFor="let education of educationList">
@@ -126,7 +125,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg shadow border m-5">
+        <div class="col-lg col-md-11 col-sm-10 col-15 shadow border m-3">
           <div class="text-center">
             <h1>Work Experience</h1>
             <div class="experiences" *ngFor="let workexp of workExpList">
@@ -141,4 +140,4 @@
         </div>
 
           </div>
-        </div> -->
+        </div> 

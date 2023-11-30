@@ -1,4 +1,9 @@
-@media (min-width: 100px) {
+.container-fluid{
+  padding: 2rem 3rem;
+  background-color: #e9ecef;
+}
+
+/* @media (min-width: 100px) {
   .jumbotron{
     padding: 2rem 3rem;
     background-color: #e9ecef;
@@ -40,4 +45,4 @@
     width:100%;
     margin: 0 auto;
   }
-}
+} */

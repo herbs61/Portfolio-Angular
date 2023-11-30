@@ -1,33 +1,46 @@
-<div class="container">
-  <div class="row">
-    <!-- About Me -->
-    <div class="col-lg shadow border m-5">
-      <div class="text-center">
-        <h2>About Me</h2>
-        <img src="../../assets/IMG_20210711_232931_622.jpg" alt="profile picture" width="40%" height="40%" class="rounded-circle">
-      <p>My name is Herbert Nana Yaw Owusu,i'm a student of Central University Ghana,studying Information Technology,Level 400. I look forward to solve problems and look for solutions to difficult problems. <br>I have some set of skills that help me in the creation of sites and i'm always willing to learn something new.
-        I have a set of skills in python,C# and i use these frameworks django,Asp.net and angular.<br>
-        I Worked as an intern at Melvic Technologies for sometime,i some hardware stuff of the computer and how to fix some problem when it arises i also learnt how to use wordpress during my stay there.
-      </p>
-      </div>
-    </div>
-    <!-- Feeatured Project -->
-    <div class="col-lg shadow border m-5">
-      <div class="text-center">
-        <h2>Featured Projects</h2>
-        <h4>{{featuredProject.name}}</h4>
-      </div>
-
-      <carousel>
-        <div *ngFor="let picture of featuredProject.pictures">
-          <slide><img src={{picture}} alt="slide" style="display: block; width:100%;"></slide>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- About Me -->
+      <div class="col-lg col-md-10 col-sm-10 col-9 shadow border m-5">
+        <div class="background-img">
+          <img src="../../assets/programmer-people-concept-use-laptop-and-programming-code-program-icon-spreading-with-modern-flat-style-vector-2B1P84N.jpg" alt="background image" width="100%">
         </div>
-      </carousel>
+        <div class="text-center">
+          <h2>About Me</h2>
+          <img src="../../assets/IMG_20210711_232931_622.jpg" alt="profile picture" width="40%" height="40%" class="rounded-circle">
+        <p style="font-family: Arial, Helvetica, sans-serif;">My name is Herbert Nana Yaw Owusu.i'm a student of Central University Ghana,studying Information Technology,Level 400. I am a Ghanaian who looks forward to solve problems and look for solutions to difficult problems. I have some set of skills that help me in the creation of sites and i'm always willing to learn something new.I have a set of skills in python,C# and i use these frameworks django,Asp.net and angular.
+        </p>
+        </div>
+      </div>
+      <!-- Feeatured Project -->
+      <div class="col-lg col-md-10 col-sm-10 col-9 shadow border m-5">
+        <div class="text-center">
+          <h2>Featured Projects</h2>
+          <h4>{{featuredProject.name}}</h4>
+        </div>
 
-      <p class="mt-5">{{featuredProject.summary}}</p>
-      <p>Visit the Porfolio section to learn more</p>
+        <carousel>
+          <div *ngFor="let picture of featuredProject.pictures">
+            <slide><img src={{picture}} alt="slide" style="display: block; width:100%;"></slide>
+          </div>
+        </carousel>
+
+        <p class="mt-5">{{featuredProject.summary}}</p>
+        <p>Visit the Porfolio section to learn more</p>
+      </div>
     </div>
-  </div>
-</div>
+  </div> 
+
+
+</body>
+</html>
 
 
