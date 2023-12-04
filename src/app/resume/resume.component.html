@@ -6,6 +6,50 @@
   <title>Document</title>
 </head>
 <body>
-  
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg col-md-11 col-sm-10 col-11 shadow border m-3">
+        <div class="text-center">
+          <h1>Education</h1>
+          <div class="educations" *ngFor="let education of educationList">
+            <h2>{{education.course}}</h2>
+            <h3>{{education.institute}}</h3>
+            <h4>{{education.duration}}</h4>
+            <h4>{{education.score}}</h4>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg col-md-11 col-sm-10 col-11 shadow border m-3">
+            <div class="text-center">
+              <h1>Work Experience</h1>
+              <div class="experiences" *ngFor="let workexp of workExpList">
+                <ul>
+                <h2>{{workexp.role}}</h2>
+                <h3>{{workexp.company}}</h3>
+                <h4>{{workexp.duration}}</h4>
+              <h4 *ngFor="let desc of workExpList">{{desc.description}}</h4>
+            </ul>
+          </div>
+
+            </div>
+          </div>
+          </div>
+          </div>
+  <div>
+    <h1>Download and check out CV</h1>
+    <a href="" class="btn btn2">Download CV</a>
+  </div>
+
 </body>
 </html>

@@ -11,7 +11,7 @@ export interface Project{
 }
 
 export interface Education{
-  institue: string;
+  institute: string;
   course: string;
   duration: string;
   score: string;
